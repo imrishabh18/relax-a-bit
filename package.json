@@ -1,0 +1,24 @@
+{
+  "name": "take-a-break",
+  "version": "1.0.0",
+  "description": "Take a break and rest your eyes while your node modules are installing",
+  "main": "index.js",
+  "bin": {
+    "brk": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "break",
+    "npm",
+    "relax",
+    "install"
+  ],
+  "author": "imrishabh18",
+  "license": "ISC",
+  "dependencies": {
+    "brightness": "^3.0.0",
+    "sync-exec": "^0.6.2"
+  }
+}
