@@ -10,7 +10,7 @@ var initialBrightness
 
 brightness.get().then(level => {
 	initialBrightness = level
-    brightness.set(0)
+    brightness.set(0.05)
     syncExec(command, {stdio: [0, 1, 2]})
 });
 
